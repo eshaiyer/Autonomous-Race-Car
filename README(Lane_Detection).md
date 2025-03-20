@@ -121,12 +121,3 @@ The main script handles:
 
 -Processing the full video and saving the result
 
-
-## Usage
-
-### Training
-
-To train the model, run the script with the appropriate paths to the dataset
-
-```bash
-python lane_detection.py
