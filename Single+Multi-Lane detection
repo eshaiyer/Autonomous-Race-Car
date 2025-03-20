@@ -251,7 +251,8 @@ def train_model(frames_path, masks_path, epochs=5, batch_size=16, checkpoint_int
     checkpoint_path = "latest_checkpoint.pth"
     best_iou = 0.0
     start_epoch = 0
-    def calculate_iou(pred, target):
+    def calculate_iou(pred, target, threshold=0.5):
+        pred=(pred>threshold).float()
         intersection = (pred * target).sum((1, 2))
         union = (pred + target - pred * target).sum((1, 2))
         return (intersection / (union + 1e-6)).mean().item()
