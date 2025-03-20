@@ -5,7 +5,7 @@ This project implements a neural network architecture with a lane tracking mecha
 ## Dataset and Preprocessing
 
 ### Lane Dataset
-The LaneDataset class prepares road images and their corresponding lane masks for training it:
+The LaneDataset class prepares road images and their corresponding lane masks for training it. Workflow of LaneDataset class:
 
 
 -Loads frames and their matching lane masks
@@ -20,6 +20,8 @@ The LaneDataset class prepares road images and their corresponding lane masks fo
 
 ### process_mask
 
+It plays an important role in the LaneDataset Class and has the functions of:
+
 -Identifies lane contours in the binary mask
 
 -Separates lanes at the horizon when they appear merged
@@ -32,7 +34,7 @@ The LaneDataset class prepares road images and their corresponding lane masks fo
 
 ### LaneNet
 
-The core of the model is `LaneNet`, a convolutional neural network (CNN) designed for lane detection consisting of an encoder-decoder structure
+The core of the model is `LaneNet`, a convolutional neural network (CNN) designed for lane detection consisting of an encoder-decoder structure:
 
 -Encoder: Two downsampling blocks that reduce spatial dimensions while increasing feature depth (3→64→128 channels)
 
@@ -45,7 +47,7 @@ The core of the model is `LaneNet`, a convolutional neural network (CNN) designe
 
 ## LaneTracker
 
-The LaneTracker class monitors lane positioning over time to detect lane changes:
+The LaneTracker class monitors lane positioning over time to detect lane changes. Workflow of LaneTracker class:
 
 -Maintains a buffer of recent lane positions
 
