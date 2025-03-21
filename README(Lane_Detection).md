@@ -28,6 +28,11 @@ It plays an important role in the LaneDataset Class and has the functions of:
 
 -Calculates lane centroids to distinguish between the current lane and other lanes
 
+### Example output of lane processing of lane mask into current and other lanes:
+
+![image](https://github.com/user-attachments/assets/20a06661-0710-441d-80d7-5ad562585ad5)
+
+
 ## Model Architecture
 
 ## Model Architecture
@@ -44,6 +49,11 @@ The core of the model is `LaneNet`, a convolutional neural network (CNN) designe
 
     Channel 0: Current/ego lane probability map
     Channel 1: Other lanes probability map
+
+### Example raw data for test image under model:
+
+![image](https://github.com/user-attachments/assets/163c498c-233e-4410-b193-78a43b1209a7)
+
 
 ## LaneTracker
 
@@ -106,6 +116,11 @@ The process_video function:
 -Writes the processed frames to the output video
 
 -Includes progress tracking and logging
+
+### Example output of raw data image after frame processing:
+
+![image](https://github.com/user-attachments/assets/5efbbb17-e660-4b1c-96f4-1df63a7ee465)
+
 
 ## Main code execution
 
