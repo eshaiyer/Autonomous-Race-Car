@@ -174,6 +174,50 @@ def detect_objects(test_images_path, img_width):
 
 ---
 
+# 🚀 Object Detection and Navigation Pipeline  
+
+A structured visualization of the image processing workflow, demonstrating input frames, obstacle detection,and steering decisions.
+
+---
+
+## 1️⃣ Input Images  
+**Raw images used for analysis.**  
+
+<p align="center">
+  <img src="Downloads/objdet1.jpg" width="30%" alt="Input Image 1">
+  <img src="Downloads/objdet2.jpg" width="30%" alt="Input Image 2">
+  <img src="Downloads/objdet3.jpg" width="30%" alt="Input Image 3">
+  <img src="Downloads/objdet4.jpg" width="30%" alt="Input Image 4"> 
+</p>
+
+---
+
+## 2️⃣ Obstacle Detection  
+**Object detection using YOLOv5.**  
+
+<p align="center">
+  <img src="Downloads/out1.jpg" width="30%" alt="Detection Image 1">
+  <img src="Downloads/out2.jpg" width="30%" alt="Detection Image 2">
+  <img src="Downloads/out3.jpg" width="30%" alt="Detection Image 3">
+  <img src="Downloads/out4.jpg" width="30%" alt="Detection Image 4">
+</p>
+
+---
+
+## 3️⃣ Steering Directions  
+**Decision-making for navigation.**  
+
+<p align="center">
+  <img src="Downloads/move1.jpg" width="30%" alt="Steering Image 1">
+  <img src="Downloads/move2.jpg" width="30%" alt="Steering Image 2">
+  <img src="Downloads/move3.jpg" width="30%" alt="Steering Image 3">
+  <img src="Downloads/move4.jpg" width="30%" alt="Steering Image 4">  
+</p>
+
+---
+
+This structured visualization provides a clear breakdown of the navigation process. 🚗💨  
+
 ## Practical Applications
 - **Autonomous Vehicles**: Real-time obstacle detection and navigation.
 - **Surveillance Systems**: Advanced object detection and tracking.
