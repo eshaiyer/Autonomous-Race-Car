@@ -174,7 +174,7 @@ def detect_objects(test_images_path, img_width):
 
 ---
 
-# 🚀 Object Detection and Navigation Pipeline  
+#  Object Detection and Navigation Pipeline  
 
 A structured visualization of the image processing workflow, demonstrating input frames, obstacle detection,and steering decisions.
 
@@ -216,7 +216,7 @@ A structured visualization of the image processing workflow, demonstrating input
 
 ---
 
-This structured visualization provides a clear breakdown of the navigation process. 🚗💨  
+This structured visualization provides a clear breakdown of the navigation process. 🚗 
 
 ## Practical Applications
 - **Autonomous Vehicles**: Real-time obstacle detection and navigation.
