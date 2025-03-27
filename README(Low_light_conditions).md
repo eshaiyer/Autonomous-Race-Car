@@ -47,6 +47,18 @@ def load_images(image_list, folder_path, target_size=(256, 256)):
 
 ---
 
+# Example usage
+### Input Image
+The following image represents the **low-light input** that is fed into the deep learning model:
+
+![Low-Light Input]("C:\Users\cnsss\Downloads\dark.jpg")
+
+### Enhanced Image
+After processing, the deep learning model outputs the following **enhanced image**:
+
+![Enhanced Output]("C:\Users\cnsss\Downloads\bright.jpeg")
+
+
 ## 3. Model Training
 
 ### Model Architecture
