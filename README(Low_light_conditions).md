@@ -31,7 +31,7 @@ We use a dataset consisting of paired *low-light and normal-light images* for su
 ```
 
 ### Data Augmentation
-Data augmentation improves model generalization. We apply transformations such as *random flipping, rotation, and brightness adjustment*:
+Data augmentation improves model generalization. We apply transformations:
 
 ```python
 def load_images(image_list, folder_path, target_size=(256, 256)):
@@ -62,7 +62,7 @@ After processing, the deep learning model outputs the following **enhanced image
 ## 3. Model Training
 
 ### Model Architecture
-The model is based on a *CNN-based U-Net architecture*, widely used in image enhancement tasks:
+The model is based on a *CNN-based MIRnet model*, widely used in image enhancement tasks:
 
 ```python
 def simplified_mirnet(input_shape=(256, 256, 3)):
