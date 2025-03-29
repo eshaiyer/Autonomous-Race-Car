@@ -184,10 +184,10 @@ A structured visualization of the image processing workflow, demonstrating input
 **Raw images used for analysis.**  
 
 <p align="center">
-  <img src="Downloads/objdet1.jpg" width="30%" alt="Input Image 1">
-  <img src="Downloads/objdet2.jpg" width="30%" alt="Input Image 2">
-  <img src="Downloads/objdet3.jpg" width="30%" alt="Input Image 3">
-  <img src="Downloads/objdet4.jpg" width="30%" alt="Input Image 4"> 
+  <img src="objdet1.PNG" width="30%" alt="Input Image 1">
+  <img src="objdet2.PNG" width="30%" alt="Input Image 2">
+  <img src="objdet3.PNG" width="30%" alt="Input Image 3">
+  <img src="objdet4.PNG" width="30%" alt="Input Image 4"> 
 </p>
 
 ---
@@ -196,10 +196,10 @@ A structured visualization of the image processing workflow, demonstrating input
 **Object detection using YOLOv5.**  
 
 <p align="center">
-  <img src="Downloads/out1.jpg" width="30%" alt="Detection Image 1">
-  <img src="Downloads/out2.jpg" width="30%" alt="Detection Image 2">
-  <img src="Downloads/out3.jpg" width="30%" alt="Detection Image 3">
-  <img src="Downloads/out4.jpg" width="30%" alt="Detection Image 4">
+  <img src="out1.PNG" width="30%" alt="Detection Image 1">
+  <img src="out2.PNG" width="30%" alt="Detection Image 2">
+  <img src="out3.PNG" width="30%" alt="Detection Image 3">
+  <img src="out4.PNG" width="30%" alt="Detection Image 4">
 </p>
 
 ---
@@ -208,10 +208,10 @@ A structured visualization of the image processing workflow, demonstrating input
 **Decision-making for navigation.**  
 
 <p align="center">
-  <img src="Downloads/move1.jpg" width="30%" alt="Steering Image 1">
-  <img src="Downloads/move2.jpg" width="30%" alt="Steering Image 2">
-  <img src="Downloads/move3.jpg" width="30%" alt="Steering Image 3">
-  <img src="Downloads/move4.jpg" width="30%" alt="Steering Image 4">  
+  <img src="move1.PNG" width="30%" alt="Steering Image 1">
+  <img src="move2.PNG" width="30%" alt="Steering Image 2">
+  <img src="move3.PNG" width="30%" alt="Steering Image 3">
+  <img src="move4.PNG" width="30%" alt="Steering Image 4">  
 </p>
 
 ---
