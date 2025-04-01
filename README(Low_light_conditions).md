@@ -109,7 +109,7 @@ def simplified_mirnet(input_shape=(256, 256, 3)):
 ```
 
 ### Loss Function and Optimization
-We use a combination of *Mean Squared Error (MSE) loss* and *Perceptual Loss* for better color and texture reconstruction.
+We used *Dice loss*.
 
 ```python
 def dice_coefficient(y_true, y_pred, smooth=1):
