@@ -128,6 +128,9 @@ The process_video function:
 
 ![image](https://github.com/user-attachments/assets/0889fbff-0a57-4df9-bcb5-f67e9a080275)
 
+### Example output frame after video input
+![Screenshot 2025-03-30 104616](https://github.com/user-attachments/assets/def34f58-06bc-46f4-8767-dca0dd7388ba)
+
 
 
 ## Main code execution
