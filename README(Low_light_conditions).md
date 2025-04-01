@@ -112,9 +112,18 @@ def simplified_mirnet(input_shape=(256, 256, 3)):
 We use a combination of *Mean Squared Error (MSE) loss* and *Perceptual Loss* for better color and texture reconstruction.
 
 ```python
+def dice_coefficient(y_true, y_pred, smooth=1):
+    y_true_f = K.flatten(y_true)
+    y_pred_f = K.flatten(y_pred)
+    y_true_f = tf.cast(y_true_f, y_pred_f.dtype)
+    intersection = K.sum(y_true_f * y_pred_f)
+    return (2. * intersection + smooth) / (K.sum(y_true_f) + K.sum(y_pred_f) + smooth + K.epsilon())
+
+def dice_loss(y_true, y_pred):
+    return 1 - dice_coefficient(y_true, y_pred)
+
 model = simplified_mirnet()
-model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae'])
-model.summary()
+model.compile(optimizer=Adam(learning_rate=0.0001), loss=dice_loss, metrics=[dice_coefficient])
 ```
 
 Training is performed over multiple epochs:
