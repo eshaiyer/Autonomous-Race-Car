@@ -67,6 +67,13 @@ The LaneTracker class monitors lane positioning over time to detect lane changes
 
 -Triggers an alert when the difference exceeds a threshold (potential lane departure)
 
+-LaneTracker also provides steering directions and degree of steering required for vehicle to stay in the centre of the lane with reference to intitial position of vehicle
+
+### Example directions overlay on output 
+
+![image](https://github.com/user-attachments/assets/d8c7a03a-49d4-4881-91da-6927f4de23ee)
+
+
 ## Training
 
 The training workflow:
@@ -119,7 +126,8 @@ The process_video function:
 
 ### Example output of raw data image after frame processing:
 
-![image](https://github.com/user-attachments/assets/5efbbb17-e660-4b1c-96f4-1df63a7ee465)
+![image](https://github.com/user-attachments/assets/0889fbff-0a57-4df9-bcb5-f67e9a080275)
+
 
 
 ## Main code execution
